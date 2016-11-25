@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class BookServiceImpl implements UserService {
+public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     public void setUserDao(UserDao userDao) {
